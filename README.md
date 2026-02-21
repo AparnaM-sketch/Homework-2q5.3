@@ -72,6 +72,7 @@
             Class Cat: TP=5, FP=15, FN=15 → P=5/20=0.25, R=5/20=0.25
             Class Dog: TP=20, FP=25, FN=25 → P=20/45≈0.444, R=20/45≈0.444
             Class Rabbit: TP=10, FP=15, FN=15 → P=10/25=0.4, R=10/25=0.4
+     
             Macro‑P = (0.25+0.444+0.4)/3 ≈ 0.365
             Micro‑P = (5+20+10)/(90) = 35/90 ≈ 0.389 (same as accuracy)
         
