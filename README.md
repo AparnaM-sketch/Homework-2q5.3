@@ -112,38 +112,33 @@ The program prompts the user to:
     bash
     python q5.3.py
     Follow the interactive prompts and enter the confusion matrix when asked.
+    
+📊 Example Output
+      === Confusion Matrix Evaluation ===
 
-📊 Example
+      Enter number of classes: 3
+      Enter name for class 1: Cat
+      Enter name for class 2: Dog
+      Enter name for class 3: Rabbit
+      
+      Enter the confusion matrix row by row (space-separated values).
+      Rows = predicted, Columns = true.
+      Row 1 (Cat): 5 10 5
+      Row 2 (Dog): 15 20 10
+      Row 3 (Rabbit): 0 15 10
+      
+      --- Per-Class Metrics ---
+      Cat   : Precision = 0.2500, Recall = 0.2500
+      Dog   : Precision = 0.4444, Recall = 0.4444
+      Rabbit: Precision = 0.4000, Recall = 0.4000
+      
+      Macro-averaged Precision = 0.3648
+      Macro-averaged Recall    = 0.3648
+      
+      Micro-averaged Precision = 0.3889
+      Micro-averaged Recall    = 0.3889
+      (Micro-averaged F1 = 0.3889)
 
-    Using the confusion matrix from Homework 2, Q5:
-    
-    Input:
-    
-    text
-    Enter number of classes: 3
-    Enter name for class 1: Cat
-    Enter name for class 2: Dog
-    Enter name for class 3: Rabbit
-    
-    Enter the confusion matrix row by row (space-separated values).
-    Rows = predicted, Columns = true.
-    Row 1 (Cat): 5 10 5
-    Row 2 (Dog): 15 20 10
-    Row 3 (Rabbit): 0 15 10
-    Output:
-    
-    text
-    --- Per-Class Metrics ---
-    Cat   : Precision = 0.2500, Recall = 0.2500
-    Dog   : Precision = 0.4444, Recall = 0.4444
-    Rabbit: Precision = 0.4000, Recall = 0.4000
-    
-    Macro-averaged Precision = 0.3648
-    Macro-averaged Recall    = 0.3648
-    
-    Micro-averaged Precision = 0.3889
-    Micro-averaged Recall    = 0.3889
-    (Micro-averaged F1 = 0.3889)
     
 🔧 Code Structure
 
